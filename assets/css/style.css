@@ -1110,13 +1110,20 @@ section {
   overflow: hidden;
 }
 
+.departments .icon-boxes h3 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #ffaa01;
+  margin-bottom: 15px;
+}
+
 .departments .nav-tabs {
   border: 0;
 }
 
 .departments .nav-link {
   border: 0;
-  padding: 12px 15px 12px 0;
+  /* padding: 12px 15px 12px 12px; */
   transition: 0.3s;
   color: #2c4964;
   border-radius: 0;
