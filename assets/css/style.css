@@ -170,7 +170,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 10px 0;
-  top: 40px;
+  /* top: 40px; */
   box-shadow: 2px 2px 5px #ffaa01;
 }
 
@@ -670,6 +670,7 @@ section {
 
 .why-us .content p {
   margin-bottom: 30px;
+  text-align: justify;
 }
 
 .why-us .content .more-btn {
@@ -889,7 +890,7 @@ section {
 # Counts
 --------------------------------------------------------------*/
 .counts {
-  background: #f1f7fd;
+  background: #fde8ca;
   padding: 70px 0 60px;
 }
 
@@ -907,7 +908,7 @@ section {
   left: 50%;
   transform: translateX(-50%);
   font-size: 20px;
-  background: #1977cc;
+  background: #ffaa00;
   color: #fff;
   border-radius: 50px;
   display: inline-flex;
@@ -1133,11 +1134,11 @@ section {
 }
 
 .departments .nav-link:hover {
-  color: #1977cc;
+  color: #ffaa00;
 }
 
 .departments .nav-link.active {
-  color: #1977cc;
+  color: #ffaa00;
   border-color: #1977cc;
 }
 
@@ -1168,7 +1169,7 @@ section {
   }
   .departments .nav-link.active {
     color: #fff;
-    background: #1977cc;
+    background: #ffaa00;
   }
 }
 
@@ -1467,11 +1468,11 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #1977cc;
+  color: #ffaa00;
   float: left;
   width: 44px;
   height: 44px;
-  background: #d6e9fa;
+  background: #fde8ca;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1499,7 +1500,7 @@ section {
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #1977cc;
+  background: #ffaa00;
   color: #fff;
 }
 
@@ -1605,7 +1606,7 @@ section {
 #footer {
   color: #444444;
   font-size: 14px;
-  background: #f1f7fd;
+  background: #fde8ca;
 }
 
 #footer .footer-top {
