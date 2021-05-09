@@ -272,7 +272,7 @@ This is possible because of the recruitment solutions provided by us that are cu
 			
 			          <div class="col-lg-6">
 			            <div class="member d-flex align-items-start">
-			              <div class="pic"><img src="assets/img/management/rohit-pandharpure-director.jpg" class="img-fluid" alt=""></div>
+			              <div class="pic"><img src="assets/img/management/rohit-pandharpure-director-profile.jpg" class="img-fluid" alt=""></div>
 			              <div class="member-info">
 			                <h4>Rohit Pandharpure</h4>
 			                <span>Director/Partner In Charge</span>
@@ -284,7 +284,7 @@ This is possible because of the recruitment solutions provided by us that are cu
 			
 			          <div class="col-lg-6 mt-4 mt-lg-0">
 			            <div class="member d-flex align-items-start">
-			              <div class="pic"><img src="assets/img/management/supriya-randive-ceo.jpg" class="img-fluid" alt=""></div>
+			              <div class="pic"><img src="assets/img/management/supriya-randive-ceo-profile.jpg" class="img-fluid" alt=""></div>
 			              <div class="member-info">
 			                <h4>Supriya Randive</h4>
 			                <span>CEO &amp; Founder</span>
@@ -508,38 +508,30 @@ This is possible because of the recruitment solutions provided by us that are cu
 					</div>
 
 					<div class="col-lg-8 mt-5 mt-lg-0">
-
-						<form action="forms/contact.php" method="post" role="form"
-							class="php-email-form">
-							<div class="row">
-								<div class="col-md-6 form-group">
-									<input type="text" name="name" class="form-control" id="name"
-										placeholder="Your Name" required>
-								</div>
-								<div class="col-md-6 form-group mt-3 mt-md-0">
-									<input type="email" class="form-control" name="email"
-										id="email" placeholder="Your Email" required>
-								</div>
-							</div>
-							<div class="form-group mt-3">
-								<input type="text" class="form-control" name="subject"
-									id="subject" placeholder="Subject" required>
-							</div>
-							<div class="form-group mt-3">
-								<textarea class="form-control" name="message" rows="5"
-									placeholder="Message" required></textarea>
-							</div>
-							<div class="my-3">
-								<div class="loading">Loading</div>
-								<div class="error-message"></div>
-								<div class="sent-message">Your message has been sent.
-									Thank you!</div>
-							</div>
-							<div class="text-center">
-								<button type="submit">Send Message</button>
-							</div>
-						</form>
-
+						<iframe id = "contact-form" src="https://docs.google.com/forms/d/1TgTjqwhoY7oY129Z6X-IBPGhztaz84z4HLOz38uEabQ/viewform?embedded=true" 
+							width = "100%" scrolling= "auto"" 
+							frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+						<!-- https://docs.google.com/forms/d/1TgTjqwhoY7oY129Z6X-IBPGhztaz84z4HLOz38uEabQ/edit -->
+						<script>
+						
+						
+							/* $(function(){
+								var scrollHeight = $("#contact-form").contentWindow.document.body.scrollHeight;
+								
+								
+								
+						      	$("#footer-container").load("footer.html"); 
+						    }); */
+					        var formObj = document.getElementById('contact-form');
+						    formObj.onload = function() {
+					        	var frameHeight = formObj.contentWindow.document.body.scrollHeight;
+					        	console.log("Height : "+frameHeight);
+					        	
+					        	
+					            //div.style.height = div.contentWindow.document.body.scrollHeight + 'px';
+					            
+					        }
+    					</script>
 					</div>
 
 				</div>
