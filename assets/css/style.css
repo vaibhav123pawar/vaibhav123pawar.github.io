@@ -8,6 +8,12 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+@font-face {
+	font-family: 'gothic';
+	src: url('./gothic.eot');
+	src: local('gothic'), url('./gothic.woff') format('woff'), url('./gothic.ttf') format('truetype');
+}
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -19,7 +25,7 @@ a {
 }
 
 a:hover {
-  color: #ffaa01;
+  color: #ffaa00;
   text-decoration: none;
 }
 
@@ -171,7 +177,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 997;
   padding: 10px 0;
   /* top: 40px; */
-  box-shadow: 2px 2px 5px #ffaa01;
+  box-shadow: 2px 2px 5px #ffaa00;
 }
 
 #header.header-scrolled {
@@ -478,14 +484,15 @@ h1, h2, h3, h4, h5, h6 {
 #hero h1 {
   margin: 0;
   font-size: 48px;
-  font-weight: 700;
+  font-weight: bolder;
   line-height: 56px;
-  text-transform: uppercase;
-  color: #2c4964;
+  /* text-transform: uppercase; */
+  color: #556e79;
+  font-family: "gothic";
 }
 
 #hero h2 {
-  color: #2c4964;
+  color: #FFAA00;
   margin: 10px 0 0 0;
   font-size: 24px;
 }
@@ -657,7 +664,7 @@ section {
 --------------------------------------------------------------*/
 .why-us .content {
   padding: 30px;
-  background: #ffaa01;
+  background: #ffaa00;
   border-radius: 4px;
   color: #fff;
 }
@@ -687,7 +694,7 @@ section {
 }
 
 .why-us .content .more-btn:hover {
-  color: #ffaa01;
+  color: #ffaa00;
   background: #fff;
 }
 
@@ -702,7 +709,7 @@ section {
 
 .why-us .icon-boxes .icon-box i {
   font-size: 40px;
-  color: #ffaa01;
+  color: #ffaa00;
   margin-bottom: 30px;
 }
 
@@ -722,14 +729,14 @@ section {
 --------------------------------------------------------------*/
 .about .icon-boxes h4 {
   font-size: 18px;
-  color: #ffaa01;
+  color: #ffaa00;
   margin-bottom: 15px;
 }
 
 .about .icon-boxes h3 {
   font-size: 28px;
   font-weight: 700;
-  color: #ffaa01;
+  color: #ffaa00;
   margin-bottom: 15px;
 }
 
@@ -744,19 +751,19 @@ section {
   justify-content: center;
   width: 64px;
   height: 64px;
-  border: 2px solid #ffaa01;
+  border: 2px solid #ffaa00;
   border-radius: 50px;
   transition: 0.5s;
 }
 
 .about .icon-box .icon i {
-  color: #ffaa01;
+  color: #ffaa00;
   font-size: 32px;
 }
 
 .about .icon-box:hover .icon {
-  background: #ffaa01;
-  border-color: #ffaa01;
+  background: #ffaa00;
+  border-color: #ffaa00;
 }
 
 .about .icon-box:hover .icon i {
@@ -1114,7 +1121,7 @@ section {
 .departments .icon-boxes h3 {
   font-size: 28px;
   font-weight: 700;
-  color: #ffaa01;
+  color: #ffaa00;
   margin-bottom: 15px;
 }
 
@@ -1612,7 +1619,7 @@ section {
 #footer .footer-top {
   padding: 10px 0 10px 0;
   background: #fff;
-  box-shadow: 0px 2px 15px #ffaa01;
+  box-shadow: 0px 2px 15px #ffaa00;
 }
 
 #footer .footer-top .footer-contact {
