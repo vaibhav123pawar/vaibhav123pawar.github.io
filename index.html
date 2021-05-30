@@ -94,6 +94,27 @@
 			<!-- <a href="#about" class="btn-get-started scrollto">Get Started</a> -->
 		</div>
 	</section>
+
+	<script>
+		var heroObj = document.getElementById("hero");
+		var bannerWidth = heroObj.offsetWidth;
+		var bannerHeight = 850;
+		console.log("Banner widht : "+bannerWidth)
+		if(bannerWidth > 600){
+			var origWidth = 1920;
+			var origHeight = 850;
+		}else{
+			var origWidth = 572;
+			var origHeight = 428;
+		}
+		var scalePercent = (bannerWidth/origWidth)*100;
+		bannerHeight = (scalePercent*origHeight)/100;	
+
+		heroObj.style.height=bannerHeight+'px';
+		console.log("Width : "+bannerWidth)	
+		console.log("height : "+bannerHeight)	
+	</script>
+
 	<!-- End Hero -->
 
 	<main id="main">
