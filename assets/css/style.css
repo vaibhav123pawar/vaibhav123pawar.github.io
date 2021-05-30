@@ -482,7 +482,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 30px;
 }
 
-banner-text{
+.banner-text{
   padding:2vw;
   background-color: #FFFFFF; 
   width:	fit-content; 
